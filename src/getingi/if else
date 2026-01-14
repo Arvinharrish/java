@@ -1,0 +1,17 @@
+package getingi;
+
+import java.util.Scanner;
+
+public class strg {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("enter a amount");
+        int a = scn.nextInt();
+
+        if (a >= 7000) {
+            System.out.println("eligible");
+        } else {
+            System.out.println("not eligible");
+        }
+    }
+    }
