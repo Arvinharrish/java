@@ -1,0 +1,19 @@
+package getingi;
+
+import java.util.Scanner;
+
+public class ifnest {
+    public static void main(String[] args) {
+        Scanner scan =new Scanner (System.in);
+        int a = scan.nextInt();
+        if (a<=50){
+            System.out.println("need to Improve");
+        }
+        else if (a>=50&& a<=69){
+            System.out.println("excellent");
+        }
+        else if(a>=70){
+            System.out.println("great");
+        }
+    }
+}
