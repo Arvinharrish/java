@@ -1,0 +1,26 @@
+package getingi;
+
+import java.util.Scanner;
+
+public class ifnestelse {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter salary");
+
+        int salary = scan.nextInt();
+        int age  = scan.nextInt();
+        if(salary>=20000|| age>=25) {
+            System.out.println("not eligible");
+        }
+        System.out.print("reqired loan amount");
+        int amount  = scan.nextInt();
+
+         if(amount<=50000)     {
+            System.out.println("eligible");
+        }
+         else if(amount>50000) {
+             System.out.println("not eligible");
+         }
+
+        }
+}
